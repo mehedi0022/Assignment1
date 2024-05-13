@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.active-link {
+    background-color: #d41111;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.nav-link:hover{
+    background-color: #c53939;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dropdown-item:hover{
+    background-color: #c53939;
+    border-radius: 5px;
+    cursor: pointer;
+}
