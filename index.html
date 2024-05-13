@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a template using HTML,  CSS, Bootstrap</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+
+    <header class="bg-dark pb-3">
+        <hr class="border border-primary border-1 m-0 opacity-50">
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col-3">
+                    <a href="#"><img src="./assets/img/Logo.png" alt="logo"></a>
+                </div>
+                <div class="col-6">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link m-1 text-white active-link">Home</a></li>
+                        <li class="nav-item"><a class="nav-link m-1 text-white">About</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link m-1 text-white dropdown-toggle type="button" id="dropdownMenu" data-bs-toggle="dropdown" aria-expanded="false"">Services</a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenu">
+                                <li><a class="dropdown-item" href="#">Web Development</a></li>
+                                <li><a class="dropdown-item" href="#">UI/UX</a></li>
+                                <li><a class="dropdown-item" href="#">App Development</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link m-1 text-white">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-primary float-end">Contact Us</button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    
+    <h1 class="bg-secondary text-uppercase text-center p-3 text-white">MERN Stack Development</h1>
+     
+    <div class="container">
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+    
+        <p class="text-danger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum sunt assumenda blanditiis veniam beatae officiis neque dolorem exercitationem eligendi magni!</p>
+    </div>
+
+
+    <div class="container">
+        <form class="row g-3 w-50 w-md-100 m-auto">
+            <div class="col-md-6 input-group-sm">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" required class="form-control" placeholder="Input your first name" id="firstName">
+              </div>
+              <div class="col-md-6 input-group-sm">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" required class="form-control" placeholder="Input your last name" id="lastName">
+              </div>
+            <div class="col-md-6 input-group-sm">
+              <label for="Email" class="form-label">Email</label>
+              <input type="email" required class="form-control" placeholder="Input your email address" id="Email">
+            </div>
+            <div class="col-md-6 input-group-sm">
+              <label for="Password" class="form-label">Password</label>
+              <input type="password" required class="form-control" id="Password">
+            </div>
+            <div class="col-12 input-group-sm">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" required class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+        
+            <div class="col-md-6 input-group-sm">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4 input-group-sm">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option value="Bagerhat">Bagerhat</option>
+                <option value="Bandarban">Bandarban</option>
+                <option value="Barguna">Barguna</option>
+                <option value="Barisal">Barisal</option>
+                <option value="Bhola">Bhola</option>
+                <option value="Bogura">Bogura</option>
+                <option value="Brahmanbaria">Brahmanbaria</option>
+                <option value="Chandpur">Chandpur</option>
+                <option value="Chattogram">Chattogram</option>
+                <option value="Chuadanga">Chuadanga</option>
+                <option value="Comilla">Comilla</option>
+                <option value="Cox's Bazar">Cox's Bazar</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Dinajpur">Dinajpur</option>
+                <option value="Faridpur">Faridpur</option>
+                <option value="Feni">Feni</option>
+                <option value="Gaibandha">Gaibandha</option>
+                <option value="Gazipur">Gazipur</option>
+                <option value="Gopalganj">Gopalganj</option>
+                <option value="Habiganj">Habiganj</option>
+                <option value="Jamalpur">Jamalpur</option>
+                <option value="Jashore">Jashore (Jessore)</option>
+                <option value="Jhalokati">Jhalokati</option>
+                <option value="Jhenaidah">Jhenaidah</option>
+                <option value="Joypurhat">Joypurhat</option>
+                <option value="Khagrachari">Khagrachari</option>
+                <option value="Khulna">Khulna</option>
+                <option value="Kishoreganj">Kishoreganj</option>
+                <option value="Kurigram">Kurigram</option>
+                <option value="Kushtia">Kushtia</option>
+                <option value="Lakshmipur">Lakshmipur</option>
+                <option value="Lalmonirhat">Lalmonirhat</option>
+                <option value="Madaripur">Madaripur</option>
+                <option value="Magura">Magura</option>
+                <option value="Manikganj">Manikganj</option>
+                <option value="Meherpur">Meherpur</option>
+                <option value="Moulvibazar">Moulvibazar</option>
+                <option value="Munshiganj">Munshiganj</option>
+                <option value="Mymensingh">Mymensingh</option>
+                <option value="Naogaon">Naogaon</option>
+                <option value="Narail">Narail</option>
+                <option value="Narayanganj">Narayanganj</option>
+                <option value="Narsingdi">Narsingdi</option>
+                <option value="Natore">Natore</option>
+                <option value="Netrokona">Netrokona</option>
+                <option value="Nilphamari">Nilphamari</option>
+                <option value="Noakhali">Noakhali</option>
+                <option value="Pabna">Pabna</option>
+                <option value="Panchagarh">Panchagarh</option>
+                <option value="Patuakhali">Patuakhali</option>
+                <option value="Pirojpur">Pirojpur</option>
+                <option value="Rajbari">Rajbari</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Rangamati">Rangamati</option>
+                <option value="Rangpur">Rangpur</option>
+                <option value="Satkhira">Satkhira</option>
+                <option value="Shariatpur">Shariatpur</option>
+                <option value="Sherpur">Sherpur</option>
+                <option value="Sirajganj">Sirajganj</option>
+                <option value="Sunamganj">Sunamganj</option>
+                <option value="Sylhet">Sylhet</option>
+                <option value="Tangail">Tangail</option>
+                <option value="Thakurgaon">Thakurgaon</option>
+              </select>
+            </div>
+            <div class="col-md-2 input-group-sm">
+              <label for="PostalCode" class="form-label">Postal Code</label>
+              <input type="number" class="form-control" id="PostalCode">
+            </div>
+            
+            <div class="col-12 input-group-sm">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+    </div>
+
+    <div class="container">
+        <div class="d-flex flex-row-reverse">
+            <h2 class="m-2 p-1">First h2</h2>
+            <h2 class="m-2 p-1">Secoend h2</h2>
+            <h2 class="m-2 p-1">Third h2</h2>
+        </div>
+        
+    </div>
+    
+
+   <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
